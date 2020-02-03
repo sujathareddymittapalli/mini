@@ -1,0 +1,61 @@
+
+body {
+ background-image: url("background.jpeg");
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #e9ecefcc;
+  }
+  input:focus {
+    border-color: #e9ecefcc
+  }
+  .form-control{
+    border: 0px solid #e9ecefcc;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    background-color: #e9ecefcc;
+  }
+  .form-control:focus {
+    border-color: #ced4da;
+    box-shadow: 0 0 0 0.2rem #fff;
+}
+.card{
+  width: 80%;
+  background-color: #c4c4c4;
+}
+.card-body img{
+  max-width: 20%;
+}
+.order_btn{
+  padding: 10px 51px;
+  border-radius: 30px;
+  background: #fff;
+  color: #fd7e14;
+  border: white;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+  .card-body img{
+  max-width: 50%;
+  }
+}
+.btn-select{
+	background:#fd7e14;	
+	color:#fff;
+	border-radius: .05rem;
+}	
+.btn-ordinary{
+	border-radius: .05rem;
+	background:#f8f9fa;	
+	color:#343a40;
+}	
+
+.bg-nav{
+	background:#3b4e32;
+}
+.nav-text{
+	color:#fff;
+}
