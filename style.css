@@ -79,16 +79,17 @@ input {
 	background:#fd7e14;	
 	color:#333;
 	border-radius: .03rem;
-        font-size:14px;
-        line-height:1,42857143;
-        
+    font-size:14px;
+    line-height:1,42857143;
+	padding:6px;    
 }	
 .btn-ordinary{
 	border-radius: .03rem;
 	background:#f8f9fa;	
 	color:#333;
-        font-size:14px;
-        line-height:1.42857143;
+    font-size:14px;
+    line-height:1.42857143;
+	padding:6px;
 }
 
 .bg-nav{
@@ -110,7 +111,7 @@ input {
 	width:0;
 	height:100%;
 	overflow-y:hidden;
-	background:#white;
+	background:grey;
 	padding-top:70px;
 }		
 
@@ -138,12 +139,28 @@ input {
 	line-height:40px;
 }
 
-.sidebar-nav li a{
+.sidebar-nav li span{
 	display:block;
 	text-decoration:none;
 	color:#ddd;
 }
+.sidebar-nav li span i{
+	display:block;
+	text-decoration:none;
+	color:#ddd;
+	margin-right:10px;
+}
 .sidebar-nav li a:hover{
 	background:#16A085
 }
-	
+.sidebar-nav li span:hover{
+	cursor:pointer;
+	background:#16A085
+}
+
+.md1-custom:focus{
+	border-bottom:0px;
+}	
+.demo-list-icon{
+	width: 250px;
+}	
