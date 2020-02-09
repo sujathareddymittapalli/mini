@@ -21,35 +21,76 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style (1).css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Menew Webapp</title>
 </head>
 
 <body>
- 
-
 <div>
 <nav class="navbar navbar-light fixed-top bg-nav">
-<button class="navbar-toggler" type="button" data-toggle="collapse" id="menu-toggle"
-		aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-<span class="nav-text">Today's specials</span>
-<span class="nav-text">combos</span>
-<span class="nav-text">veg combo</span>
-</button>
-<nav>		
+	<ul class="nav">
+		<li class="nav-item">
+			<a class="nav-link text-white top-active active" href="#">Today's Special</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Combo</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Veg Combo</a>
+		</li>
+	</ul>
+<nav>
 </div>
-<div class="row mx-auto" style="justify-content: center;">
-	<div class="card p-4 text-center">
-		<div class="card-body">
-			<h5>This is Order Page</h5>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Welcome</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Good to See you
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-flux">
+  <div class="row card-row">
+		<div class="col-sm">
+			<div class="card" style="width: 18rem;">
+				  <img src="images/Achari Chicken.jpg" class="card-img-top" alt="Achari Chicken">
+				  <div class="card-body bg-white">
+						<ul class="list-unstyled">
+							<li><i class="fa fa-cutlery" aria-hidden="true"></i> Achari Chicken</li>
+							<li><i class="fa fa-user" aria-hidden="true"></i> Serves 1</li>
+							<li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
+						</ul>
+				  </div>
+			</div>
 		</div>
+	</div>
+	<div class="dropdown">
+	  <button class="btn btn-primary dropdown-toggle sticky-top mt-2 ml-5" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		Menu
+	  </button>
+	  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		<a class="dropdown-item" href="#">Action</a>
+		<a class="dropdown-item" href="#">Another action</a>
+		<a class="dropdown-item" href="#">Something else here</a>
+	  </div>
 	</div>
 </div>
 <script>
 $("#menu-toggle").click(function (e) {
 	e.preventDefault();
 	$("#wrapper").toggleClass("menuDisplayed");
+});
+$(window).on('load',function(){
+	$('#exampleModal').modal('show');
 });
 </script>
 

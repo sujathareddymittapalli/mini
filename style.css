@@ -164,3 +164,17 @@ input {
 .demo-list-icon{
 	width: 250px;
 }	
+.top-active{
+	border-bottom: 3px solid #ffc300;
+    color: #fff;
+    opacity: 1;
+}
+.navbar ul li a:hover{
+	color:#fff;
+}
+.card-row{
+	margin-left:2px
+}
+.menu-items{
+	margin-left:40px;
+}
