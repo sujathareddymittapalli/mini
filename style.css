@@ -173,8 +173,24 @@ input {
 	color:#fff;
 }
 .card-row{
-	margin-left:2px
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	
 }
 .menu-items{
 	margin-left:40px;
+}
+.text-right{
+	justify-content:space-between;align-items:center;
+}
+.card-value{
+	width: 18rem;   
+	min-height: 220px;
+    max-height: 270px;
+    height: auto;
+}
+.menu-button{
+	position: absolute;
+    top: 20%;
 }
