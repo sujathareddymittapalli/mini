@@ -194,3 +194,19 @@ input {
 	position: absolute;
     top: 20%;
 }
+.plp-img{
+	min-height: 140px;
+    max-height: 140px;
+    height: auto;
+    object-fit: inherit;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 300px;
+    overflow-x: hidden;
+}
+.menu-item{
+	padding-left:250px;
+    top: 70%;
+    position: absolute;
+}
