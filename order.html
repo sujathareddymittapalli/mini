@@ -1,193 +1,213 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-	<!-- Optional JavaScript -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
 
     <title>Menew Webapp</title>
-</head>
+  </head>
 
-<body>
-<div class="container-flux">
-<nav class="navbar navbar-light fixed-top bg-nav">
-	<ul class="nav">
-		<li class="nav-item">
-			<a class="nav-link text-white top-active active" href="#">Today's Special</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="#">Combo</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="#">Veg Combo</a>
-		</li>
-		<li class="nav-item">
-		    <a class="nav-link" href="#">Roti</a>
-		</li>
-		<li class="nav-item">
-		    <a class="nav-link" href="#">veg combo with meal roti</a>
-		</li>
-	</ul>
-</nav>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Welcome</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Good to See you
+  <body>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Welcome</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Good to See you
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<div class="container-flux">
-  <div class="row card-row">
-		<div class="col-sm-3">
-			<div class="card card-value">
-				  <img src="images/Achari Chicken.jpg" class="card-img-top" alt="Achari Chicken" style="min-height: 140px;
-    max-height: 140px;
-    height: auto;
-    object-fit: inherit;">
-				  <div class="card-body bg-white">
-						<ul class="list-unstyled">
-							<li><i class="fa fa-cutlery" aria-hidden="true"></i> Achari Chicken</li>
-							<li><i class="fa fa-user" aria-hidden="true"></i> Serves 1</li>
-							<li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-							<div class="d-flex flex column row-h1 text-right">
-							<div class="order-1 tem-h1">Rs:170</div>
-							<div class="order-2  item-h1"><button>Add</button></div>
-							</div>
-							<li>
-						</ul>
-				  </div>
-			    </div>
-			</div>
-<div class="col-sm-3">
-			<div class="card card-value">
-				  <img src="images/noodles.jpg" class="card-img-top" alt="Achari Chicken" style="min-height: 140px;
-    max-height: 140px;
-    height: auto;
-    object-fit: inherit;">
-				  <div class="card-body bg-white">
-						<ul class="list-unstyled">
-							<li><i class="fa fa-cutlery" aria-hidden="true"></i> Achari Chicken</li>
-							<li><i class="fa fa-user" aria-hidden="true"></i> Serves 1</li>
-							<li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-							<div class="d-flex flex column row-h1 text-right">
-							<div class="order-1 tem-h1">Rs:270</div>
-							<div class="order-2  item-h1"><button>Add</button></div>
-							</div>
-							<li>
-						</ul>
-				  </div>
-			    </div>
-			</div>
-<div class="col-sm-3">
-			<div class="card card-value">
-				  <img src="images/chicken65.jpg" class="card-img-top" alt="Achari Chicken"  style="min-height: 140px;
-    max-height: 140px;
-    height: auto;
-    object-fit: inherit;">
-				  <div class="card-body bg-white">
-						<ul class="list-unstyled">
-							<li><i class="fa fa-cutlery" aria-hidden="true"></i> Achari Chicken</li>
-							<li><i class="fa fa-user" aria-hidden="true"></i> Serves 1</li>
-							<li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-							<div class="d-flex flex column row-h1 text-right">
-								<div class="order-1 item-h1">Rs:170</div>
-								<div class="order-2 item-h1"><button>Add</button></div>
-							</div>
-							<li>
-						</ul>
-				  </div>
-			    </div>
-			</div>
+    <div class="container-flux">
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+            <nav class="navbar navbar-light fixed-top bg-nav" style="width:67%">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link text-white top-active active" href="#"
+                  >Today's Special</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Combo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Veg Combo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Roti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">veg combo with meal roti</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="row card-row mt-5">
+            <div class="col-md-4 col-sm-12">
+              <div class="card card-value">
+                <img
+                  src="images/Achari Chicken.jpg"
+                  class="card-img-top"
+                  alt="Achari Chicken"
+                  style="min-height: 140px;
+                max-height: 140px;
+                height: auto;
+                object-fit: inherit;"
+                />
+                <div class="card-body bg-white">
+                  <ul class="list-unstyled">
+                    <li>
+                      <i class="fa fa-cutlery" aria-hidden="true"></i> Achari
+                      Chicken
+                    </li>
+                    <li>
+                      <i class="fa fa-user" aria-hidden="true"></i> Serves 1
+                    </li>
+                    <li>
+                      <i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins
+                    </li>
+                    <div class="d-flex flex column row-h1 text-right">
+                      <div class="order-1 tem-h1">Rs:170</div>
+                      <div class="order-2  item-h1"><button>Add</button></div>
+                    </div>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card card-value">
+                <img
+                  src="images/noodles.jpg"
+                  class="card-img-top"
+                  alt="Achari Chicken"
+                  style="min-height: 140px;
+                    max-height: 140px;
+                    height: auto;
+                    object-fit: inherit;"
+                />
+                <div class="card-body bg-white">
+                  <ul class="list-unstyled">
+                    <li>
+                      <i class="fa fa-cutlery" aria-hidden="true"></i> Achari
+                      Chicken
+                    </li>
+                    <li>
+                      <i class="fa fa-user" aria-hidden="true"></i> Serves 1
+                    </li>
+                    <li>
+                      <i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins
+                    </li>
+                    <div class="d-flex flex column row-h1 text-right">
+                      <div class="order-1 tem-h1">Rs:270</div>
+                      <div class="order-2  item-h1"><button>Add</button></div>
+                    </div>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card card-value">
+                <img
+                  src="images/chicken65.jpg"
+                  class="card-img-top"
+                  alt="Achari Chicken"
+                  style="min-height: 140px;
+                      max-height: 140px;
+                      height: auto;
+                      object-fit: inherit;"
+                />
+                <div class="card-body bg-white">
+                  <ul class="list-unstyled">
+                    <li>
+                      <i class="fa fa-cutlery" aria-hidden="true"></i> Achari
+                      Chicken
+                    </li>
+                    <li>
+                      <i class="fa fa-user" aria-hidden="true"></i> Serves 1
+                    </li>
+                    <li>
+                      <i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins
+                    </li>
+                    <div class="d-flex flex column row-h1 text-right">
+                      <div class="order-1 item-h1">Rs:170</div>
+                      <div class="order-2 item-h1"><button>Add</button></div>
+                    </div>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        </div>	
-<div class="container-flux">
-  <div class="row card-row">
-		<div class="col-sm-3">
-			<div class="card card-value">
-				  <img src="images/Achari Chicken.jpg" class="card-img-top" alt="Achari Chicken"  style="min-height: 140px;
-    max-height: 140px;
-    height: auto;
-    object-fit: inherit;">
-				  <div class="card-body bg-white">
-						<ul class="list-unstyled">
-							<li><i class="fa fa-cutlery" aria-hidden="true"></i> Achari Chicken</li>
-							<li><i class="fa fa-user" aria-hidden="true"></i> Serves 1</li>
-							<li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-							<div class="d-flex flex column row-h1 text-right">
-							<div class="order-1 item-h1">Rs:170</div>
-							<div class="order-2  item-h1"><button>Add</button></div>
-							</div>
-							<li>
-						</ul>
-				  </div>
-			    </div>
-			</div>
-			</div>		
-	  <div class="container menu-item">
-		<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Menu <span class="caret"></span></button>
-		<div class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenuButton">
-			<a class="dropdown-item" href="#">combo</a>
-			<a class="dropdown-item" href="#">chicken</a>
-			<a class="dropdown-item" href="#">mutton</a>
-			<a class="dropdown-item" href="#">roti</a>
-			<a class="dropdown-item" href="#">roti with chicken</a>
-			<a class="dropdown-item" href="#">curd rice</a>
-			<a class="dropdown-item" href="#">veg biryani</a>
-			<a class="dropdown-item" href="#">combo</a>
-			<a class="dropdown-item" href="#">chicken</a>
-			<a class="dropdown-item" href="#">mutton</a>
-			<a class="dropdown-item" href="#">roti</a>
-			<a class="dropdown-item" href="#">roti with chicken</a>
-			<a class="dropdown-item" href="#">curd rice</a>
-			<a class="dropdown-item" href="#">veg biryani</a>
-			<a class="dropdown-item" href="#">combo</a>
-			<a class="dropdown-item" href="#">chicken</a>
-			<a class="dropdown-item" href="#">mutton</a>
-			<a class="dropdown-item" href="#">roti</a>
-			<a class="dropdown-item" href="#">roti with chicken</a>
-			<a class="dropdown-item" href="#">curd rice</a>
-			<a class="dropdown-item" href="#">veg biryani</a>
+        <div class="col-md-4">
+          <span>Suji</span>
+        </div>
       </div>
-</div>
+    </div>
 
-<script>
-$("#menu-toggle").click(function (e) {
-	e.preventDefault();
-	$("#wrapper").toggleClass("menuDisplayed");
-});
-$(window).on('load',function(){
-	$('#exampleModal').modal('show');
-});
-</script>
- 
-</body>
-
+    <script>
+      $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("menuDisplayed");
+      });
+      $(window).on("load", function() {
+        $("#exampleModal").modal("show");
+      });
+    </script>
+  </body>
 </html>
