@@ -43,6 +43,7 @@
 </head>
 
 <body>
+
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -129,7 +130,7 @@
     <div class="container-flux">
         <div class="row m-0 f-size-20">
             <div class="col-md-9 Plp">
-                <div class="mt-2"> <span class="align-middle mr-4 "><i class="fa fa-2x fa-toggle-on"
+                 <div class="mt-2"> <span class="align-middle mr-4 "><i class="fa fa-2x fa-toggle-on"
                             aria-hidden="true"></i></span>Veg only</div>
                 <div class="mt-2 category-heading">
                     <h3>Today Specials</h3>
@@ -180,7 +181,7 @@
                 <!-- PLP ITEMS START-->
                 <div class="row card-row p-content">
                     <div class="card m-2" style="width: 18rem;">
-                        <img class="card-img-top" src="images/Achari Chicken.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/chicken1.jpg" alt="Card image cap">
                         <div class="card-body">
                             <span class="card-text d-block"><i class="fa fa-cutlery c-red" aria-hidden="true"></i>
                                 Achari Chicken</span>
@@ -189,83 +190,83 @@
                             <span class="card-text d-block"><i class="fa fa-clock-o c-oragnge" aria-hidden="true"></i>
                                 15 mins</span>
                             <div class="d-flex justify-content-between mt-2">
-                                <div><span class="card-text ">Rs:170</span></div>
-                                <div><a href="#" class="btn plp-button ml-3">Add</a></div>
+                                <div><span class="card-text ">Rs:150</span></div>
+                                <div><a class="btn plp-button ml-3" id="item1" onclick="addOrder('Achari Chicken','150')">Add</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="card m-2" style="width: 18rem;">
-                        <img class="card-img-top" src="images/Achari Chicken.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/mutton1.jpg" alt="Card image cap">
                         <div class="card-body">
                             <span class="card-text d-block"><i class="fa fa-cutlery c-green" aria-hidden="true"></i>
-                                Achari Chicken</span>
+                                Mutton</span>
                             <span class="card-text d-block"><i class="fa fa-user mr-1 c-oragnge"
                                     aria-hidden="true"></i>Serves 1</span>
                             <span class="card-text d-block"><i class="fa fa-clock-o c-oragnge" aria-hidden="true"></i>
                                 15 mins</span>
                             <div class="d-flex justify-content-between mt-2">
                                 <div><span class="card-text ">Rs:170</span></div>
-                                <div><a href="#" class="btn plp-button ml-3">Add</a></div>
+                                <div><a class="btn plp-button ml-3" id = "item2" onclick="addOrder(' Mutton','250')" >Add</a></div>
                             </div>
                         </div>
                     </div>
 					<div class="card m-2" style="width: 18rem;">
-                        <img class="card-img-top" src="images/Achari Chicken.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/gobi manchuriyan.jpg" alt="Card image cap">
                         <div class="card-body">
                             <span class="card-text d-block"><i class="fa fa-cutlery c-green" aria-hidden="true"></i>
-                                Achari Chicken</span>
+                                Gobi Manchuriya</span>
                             <span class="card-text d-block"><i class="fa fa-user mr-1 c-oragnge"
                                     aria-hidden="true"></i>Serves 1</span>
                             <span class="card-text d-block"><i class="fa fa-clock-o c-oragnge" aria-hidden="true"></i>
                                 15 mins</span>
                             <div class="d-flex justify-content-between mt-2">
-                                <div><span class="card-text ">Rs:170</span></div>
-                                <div><a href="#" class="btn plp-button ml-3">Add</a></div>
+                                <div><span class="card-text ">Rs:100</span></div>
+                                <div><a  class="btn plp-button ml-3" id="item3" onclick="addOrder('Gobi Manchuriya','100')">Add</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="card m-2" style="width: 18rem;">
-                        <img class="card-img-top" src="images/Achari Chicken.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/chapathi.jpg" alt="Card image cap">
                         <div class="card-body">
                             <span class="card-text d-block"><i class="fa fa-cutlery c-red" aria-hidden="true"></i>
-                                Achari Chicken</span>
+                                roti</span>
                             <span class="card-text d-block"><i class="fa fa-user mr-1 c-oragnge"
                                     aria-hidden="true"></i>Serves 1</span>
                             <span class="card-text d-block"><i class="fa fa-clock-o c-oragnge" aria-hidden="true"></i>
                                 15 mins</span>
                             <div class="d-flex justify-content-between mt-2">
-                                <div><span class="card-text ">Rs:170</span></div>
-                                <div><a href="#" class="btn plp-button ml-3">Add</a></div>
+                                <div><span class="card-text ">Rs:30</span></div>
+                                <div><a  class="btn plp-button ml-3" id="item4" onclick="addOrder('roti','30')">Add</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="card m-2" style="width: 18rem;">
-                        <img class="card-img-top" src="images/Achari Chicken.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/paneer curry.jpg" alt="Card image cap">
                         <div class="card-body">
                             <span class="card-text d-block"><i class="fa fa-cutlery c-red" aria-hidden="true"></i>
-                                Achari Chicken</span>
+                               paneer curry </span>
                             <span class="card-text d-block"><i class="fa fa-user mr-1 c-oragnge"
                                     aria-hidden="true"></i>Serves 1</span>
                             <span class="card-text d-block"><i class="fa fa-clock-o c-oragnge" aria-hidden="true"></i>
                                 15 mins</span>
                             <div class="d-flex justify-content-between mt-2">
-                                <div><span class="card-text ">Rs:170</span></div>
-                                <div><a href="#" class="btn plp-button ml-3">Add</a></div>
+                                <div><span class="card-text ">Rs:140</span></div>
+                                <div><a class="btn plp-button ml-3" id="item5" onclick="addOrder('paneer curry','140')">Add</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="card m-2" style="width: 18rem;">
-                        <img class="card-img-top" src="images/Achari Chicken.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/chicken biryani.jpg" alt="Card image cap">
                         <div class="card-body">
                             <span class="card-text d-block"><i class="fa fa-cutlery c-red" aria-hidden="true"></i>
-                                Achari Chicken</span>
+                                chicken biryani</span>
                             <span class="card-text d-block"><i class="fa fa-user mr-1 c-oragnge"
                                     aria-hidden="true"></i>Serves 1</span>
                             <span class="card-text d-block"><i class="fa fa-clock-o c-oragnge" aria-hidden="true"></i>
                                 15 mins</span>
                             <div class="d-flex justify-content-between mt-2">
-                                <div><span class="card-text ">Rs:170</span></div>
-                                <div><a href="#" class="btn plp-button ml-3">Add</a></div>
+                                <div><span class="card-text ">Rs:300</span></div>
+                                <div><a class="btn plp-button ml-3" id="item6" onclick="addOrder('chicken biryani','300',)">Add</a></div>
                             </div>
                         </div>
                     </div>
@@ -273,8 +274,8 @@
                 <!-- PLP ITEMS END-->
              </div>
             <div class="col-md-3 ">
-                <div class="container cart_background">
-                    <img src="images/cart.jpg" alt="Snow" style="width:100%;"><br>
+                <div class="container cart_background" id ="cartItems">
+                    <img id = "cartImage" src="images/cart.jpg" alt="Snow" style="width:100%;"><br>
                     <div class="bottom-center">
                         <p>Your Cart is empty.<br>Add an item to begin.</p>
                     </div>
@@ -299,7 +300,8 @@
         </div>
     </div>
     <!--  -->
-    <script>
+	<script src="order.js" ></script>
+    <script >
 
         showSearchField = function () {
             $("#cross-icon").css({ display: "block" });

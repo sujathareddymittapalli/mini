@@ -12,10 +12,11 @@
     font-size: 20px;
     font-weight: 400;
     width: 25%;
+	
 }
 .navbar-brand{
     color: white ;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     border-bottom: 3px solid #f7c133
 }
@@ -108,14 +109,25 @@
 }
 
 /* Cart css */
+
 .cart_background{
     position: relative;
-    text-align: center;
+	border-radius:0px;
+	border-top-left-radius:1px;
+	border-top-right-radius:1px;
+	border-bottom-right-radius:1px;
+	border-bottom-left-radius:1px;
+	padding:1px;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-right:1px;
+	margin-left:1px;
 }
 .bottom-center {
     position: absolute;
     bottom: 0px;
-    left: 17%;
+    left: 5%;
     color: grey;
   }
 /* searc bar */

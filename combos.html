@@ -163,17 +163,17 @@
                 <!-- PLP ITEMS START-->
                 <div class="row card-row p-content">
                     <div class="card m-2" style="width: 18rem;">
-                        <img class="card-img-top" src="images/rice.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/sambar.jpg" alt="Card image cap">
                         <div class="card-body">
                             <span class="card-text d-block"><i class="fa fa-cutlery c-red" aria-hidden="true"></i>
-                                Achari Chicken</span>
+                                sambar</span>
                             <span class="card-text d-block"><i class="fa fa-user mr-1 c-oragnge"
                                     aria-hidden="true"></i>Serves 1</span>
                             <span class="card-text d-block"><i class="fa fa-clock-o c-oragnge" aria-hidden="true"></i>
                                 15 mins</span>
                             <div class="d-flex justify-content-between mt-2">
-                                <div><span class="card-text ">Rs:170</span></div>
-                                <div><a href="#" class="btn plp-button ml-3">Add</a></div>
+                                <div><span class="card-text ">Rs:50</span></div>
+                                <div><a class="btn plp-button ml-3" id="item7" onclick="addOrder('sambar','50')">Add</a></div>
                             </div>
                         </div>
                     </div>
@@ -256,7 +256,7 @@
                 <!-- PLP ITEMS END-->
             </div>
             <div class="col-md-3 ">
-                <div class="container cart_background">
+                <div class="container cart_background" id="cartitems">
                     <img src="images/cart.jpg" alt="Snow" style="width:100%;">
                     <div class="bottom-center">
                         <p>Your Cart is empty.<br>Add an item to begin.</p>
@@ -283,6 +283,7 @@
         </div>
     </div>
     <!--  -->
+	<script src="combos.js"></script>
     <script>
 
         showSearchField = function () {
