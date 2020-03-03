@@ -42,7 +42,7 @@
 
 </head>
 
-<body>
+<body onload="addOrder(null,null)">
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -239,7 +239,7 @@
                                 <div><a  class="btn plp-button ml-3" id="item4" onclick="addOrder('roti','30')">Add</a></div>
                             </div>
                         </div>
-                    </div>
+						 </div>
                     <div class="card m-2" style="width: 18rem;">
                         <img class="card-img-top" src="images/paneer curry.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -255,6 +255,7 @@
                             </div>
                         </div>
                     </div>
+                   
                     <div class="card m-2" style="width: 18rem;">
                         <img class="card-img-top" src="images/chicken biryani.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -276,7 +277,7 @@
             <div class="col-md-3 ">
                 <div class="container cart_background" id ="cartItems">
                     <img id = "cartImage" src="images/cart.jpg" alt="Snow" style="width:100%;"><br>
-                    <div class="bottom-center">
+                    <div class="bottom-center" id="cartEmpty">
                         <p>Your Cart is empty.<br>Add an item to begin.</p>
                     </div>
                 </div>
